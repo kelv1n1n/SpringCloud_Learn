@@ -1,11 +1,12 @@
 server:
-  port: 8011
+  port: 8030
 spring:
   application:
-    name: serverProvider
+    name: gateway
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8071/eureka/
-  instance:
-    prefer-ip-address: true
+zuul:
+  routes:
+    serverProvider: /p/**
