@@ -1,7 +1,6 @@
 package eurekaclient.lee.repository;
 
 import eurekaclient.lee.entity.Student;
-
 import java.util.Collection;
 
 public interface StudentRepository {
