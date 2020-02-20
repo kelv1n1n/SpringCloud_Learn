@@ -78,7 +78,7 @@
       <recent name="eurekaclient.lee" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.GithubConfigClientApplication">
+  <component name="RunManager" selected="Spring Boot.ZipkinServerApplication">
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="eurekaserver" />
       <extension name="coverage">
@@ -159,15 +159,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NativeConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="nativeconfigserver" />
+    <configuration name="ZipkinServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="zipkinserver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="config.lee.*" />
+          <option name="PATTERN" value="zipkin.lee.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="config.lee.NativeConfigServerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="zipkin.lee.ZipkinServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -328,18 +328,18 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.EurekaServerApplication" />
-      <item itemvalue="Spring Boot.NativeConfigServerApplication" />
       <item itemvalue="Spring Boot.NativeConfigClientApplication" />
       <item itemvalue="Spring Boot.GithubConfigServerApplication" />
       <item itemvalue="Spring Boot.GithubConfigClientApplication" />
+      <item itemvalue="Spring Boot.ZipkinServerApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ZipkinServerApplication" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
         <item itemvalue="Spring Boot.GithubConfigClientApplication" />
         <item itemvalue="Spring Boot.GithubConfigServerApplication" />
-        <item itemvalue="Spring Boot.EurekaServerApplication" />
         <item itemvalue="Spring Boot.NativeConfigClientApplication" />
-        <item itemvalue="Spring Boot.NativeConfigServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +367,7 @@
       <updated>1582019353101</updated>
       <workItem from="1582019356125" duration="8731000" />
       <workItem from="1582085339839" duration="16342000" />
-      <workItem from="1582169886086" duration="23383000" />
+      <workItem from="1582169886086" duration="27589000" />
     </task>
     <servers />
   </component>
@@ -375,10 +375,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="74" key="#Project_Structure" timestamp="1582194102204">
+    <state x="361" y="74" key="#Project_Structure" timestamp="1582202365036">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1582194102204" />
+    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1582202365036" />
     <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582199134046">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -391,45 +391,45 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1582184642037" />
-    <state width="1493" height="666" key="GridCell.Tab.0.bottom" timestamp="1582199886681">
+    <state width="1493" height="666" key="GridCell.Tab.0.bottom" timestamp="1582205650526">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="666" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582199886681" />
-    <state width="1493" height="666" key="GridCell.Tab.0.center" timestamp="1582199886681">
+    <state width="1493" height="666" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582205650526" />
+    <state width="1493" height="666" key="GridCell.Tab.0.center" timestamp="1582205650526">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="666" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582199886681" />
-    <state width="1493" height="666" key="GridCell.Tab.0.left" timestamp="1582199886681">
+    <state width="1493" height="666" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582205650526" />
+    <state width="1493" height="666" key="GridCell.Tab.0.left" timestamp="1582205650526">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="666" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582199886681" />
-    <state width="1493" height="666" key="GridCell.Tab.0.right" timestamp="1582199886681">
+    <state width="1493" height="666" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582205650526" />
+    <state width="1493" height="666" key="GridCell.Tab.0.right" timestamp="1582205650526">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="666" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582199886681" />
-    <state width="1493" height="666" key="GridCell.Tab.1.bottom" timestamp="1582199886681">
+    <state width="1493" height="666" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582205650526" />
+    <state width="1493" height="666" key="GridCell.Tab.1.bottom" timestamp="1582205650526">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="666" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582199886681" />
-    <state width="1493" height="666" key="GridCell.Tab.1.center" timestamp="1582199886681">
+    <state width="1493" height="666" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582205650526" />
+    <state width="1493" height="666" key="GridCell.Tab.1.center" timestamp="1582205650526">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="666" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582199886681" />
-    <state width="1493" height="666" key="GridCell.Tab.1.left" timestamp="1582199886681">
+    <state width="1493" height="666" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582205650526" />
+    <state width="1493" height="666" key="GridCell.Tab.1.left" timestamp="1582205650526">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="666" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582199886681" />
-    <state width="1493" height="666" key="GridCell.Tab.1.right" timestamp="1582199886681">
+    <state width="1493" height="666" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582205650526" />
+    <state width="1493" height="666" key="GridCell.Tab.1.right" timestamp="1582205650526">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="666" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582199886681" />
+    <state width="1493" height="666" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582205650526" />
     <state x="272" y="58" key="SettingsEditor" timestamp="1582085992319">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="272" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582085992319" />
-    <state x="178" y="117" key="new project wizard" timestamp="1582194322836">
+    <state x="178" y="117" key="new project wizard" timestamp="1582205191437">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="178" y="117" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1582194322836" />
+    <state x="178" y="117" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1582205191437" />
   </component>
 </project>
