@@ -1,4 +1,4 @@
-# SpringCloud学习项目
+# SpringCloud F版 学习Demo
 ### Spring Cloud核心组件
 
 - 服务治理 Eureka
